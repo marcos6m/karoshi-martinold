@@ -1,0 +1,36 @@
+header {
+    background-color: #fbf6f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 0 20px 0;
+}
+
+header img {
+    width: 250px;
+    margin: 20px auto;
+}
+
+ul {
+    list-style: none;
+    font-size: 0;
+    /* truco por el uso de inline-block*/
+    display: flex;
+}
+
+li {
+    display: inline-block;
+    position: relative;
+    font-size: 16px;
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #040B0B;
+}
+
+nav a:hover {
+    color: red;
+}

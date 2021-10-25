@@ -1,0 +1,81 @@
+$width:100%;
+@mixin espacio{
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.mainSobreMi {
+    background-color: #FBF6F4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    color: #040B0B;
+    padding-bottom: 60px;
+}
+
+.mainSobreMi section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 90vw;
+}
+
+.mainSobreMi h1 {
+    color: #040B0B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin: 15px;
+}
+
+.mainSobreMi h3 {
+    color: #040B0B;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.mainSobreMi img {
+    padding: 10px 20px 10px 20px;
+    width: 60vw;
+}
+
+.mainSobreMi article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.caja1 {
+    @include espacio();
+    background-color: #040B0B;
+    color: #fbf6f4;
+    width:$width/2;
+}
+
+.caja2 {
+    @include espacio();
+    background-color: #fbf6f4;
+    color: #040B0B;
+    width:$width/2;
+}
+
+.caja3 {
+    @include espacio();
+    background-color: #040B0B;
+    color: #FBF6F4;
+    width:$width/2;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 20px;
+    background-color: #fbf6f4;
+}
+
+.container a {
+    text-decoration: none;
+    color: #fbf6f4;
+}

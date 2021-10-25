@@ -1,0 +1,29 @@
+/*---------DISPOSITIVOS MEDIANOS---------*/
+
+@media (min-widht: 768px) {
+    li {
+        font-size: 30px;
+    }
+
+    ul ul {
+        margin-top: 10px;
+    }
+}
+
+/*---------DISPOSITIVOS GRANDES---------*/
+
+@media (min-width: 1024px) {
+    header {
+        min-height: 15vh;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .mainIndex {
+        min-height: 75vh;
+    }
+
+    footer {
+        min-height: 10vh;
+    }
+}

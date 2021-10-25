@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./scss/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,100;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Karoshi, Contacto</title>
+    <meta name="description" content="Contacta a Karoshi y Karoshi te responderá si tiene ganas">
+    <meta name="keywords" content="contacto, email, comunicacion, escribime">
+</head>
+
+<body>
+    <header>
+        <a href="./index.html"><img src="./img/logo.png" alt="Logo Karóshi"></a>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./fotografia.html">Fotografía</a></li>
+                <li><a href="./video.html">Video</a></li>
+                <li><a href="./haiku.html">Haiku</a></li>
+                <li><a href="./sobre-mi.html">Sobre mi</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="mainIndexContacto">
+        <section>
+            <article>
+                <formulario class="animate__animated animate__backInUp">
+                    <h1>Escribime</h1>
+                    <form action="#">
+                            <div>
+                                <label for="nombre"></label>
+                                <input type="text" name="nombre" placeholder="Ingresa tu nombre">
+                            </div>
+                            <br>
+                            <div>
+                                <label for="email"></label>
+                                <input type="email" placeholder="Ingresa tu email">
+                            </div>
+                            <br>
+                            <div>
+                                <textarea name="consulta" placeholder="¿Cuál es el motivo de tu consulta?" rows="6" required></textarea>
+                            </div>
+                            <div>
+                                <input type="submit" value="Enviar Form">
+                                <input type="reset" value="Borrar Form">
+                            </div>
+                    </form>
+                </formulario>    
+            </article>
+        </section>
+    </main>
+
+    <footer>
+<p class="animate__animated animate__backInUp">&copy; Karóshi 2021</p>
+    </footer>
+
+    <script src="js/wow.min.js"></script>
+    <script>
+       new WOW().init();
+    </script>  
+
+</body>
+
+</html>
